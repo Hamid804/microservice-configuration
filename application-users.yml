@@ -11,6 +11,4 @@ spring:
       ddl-auto: update
     show-sql: true
   application:
-    name: USER-SERVICE-UPDATED
-  config:
-    import: optional:configserver://localhost:8085
+    name: USER-SERVICE
